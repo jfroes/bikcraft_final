@@ -8,6 +8,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+    <link rel="preload" href="./assets/styles.css" as="style">
     <link rel="stylesheet" href="./assets/styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -30,7 +31,7 @@
             <nav aria-label="primaria">
                 <ul class="header-menu font-1-m cor-0">
                     <li><a href="./bicicletas.html">Bicicletas</a></li>
-                    <li><a href="./seguro.html">Seguros</a></li>
+                    <li><a href="./seguros.html">Seguros</a></li>
                     <li><a href="./contato.html">Contato</a></li>
                 </ul>
             </nav>
@@ -89,7 +90,43 @@
         </div>
 
     </main>
+    <article class="lojas container">
+        <h2 class="font-1-xxl">Lojas locais <span class="cor-p1">.</span></h2>
+        <div class="lojas-item">
+            <img src="./assets/img/lojas/rj.jpg" alt="Mapa marcando o endereço RJ">
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">Rio de Janeiro</h3>
+                <div class="lojas-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 25</p>
+                    <p>Rio de Janeiro - RJ</p>
+                </div>
+                <div class="lojas-dados font-2-s cor-8">
+                    <a href="mailto:rj@bikcraft.com">rj@bikcraft.com</a>
+                    <a href="tel:+55 21 9999-9999">+55 21 9999-9999</a>
+                </div>
+                <p class="lojas-tempo font-1-s"><img src="./assets/img/icones/horario.svg" alt="">08-18h de seg à dom
+                </p>
+            </div>
+        </div>
 
+        <div class="lojas-item">
+            <img src="./assets/img/lojas/sp.jpg" alt="Mapa marcando o endereço SP">
+            <div class="lojas-conteudo">
+                <h3 class="font-1-xl">São Paulo</h3>
+
+                <div class="lojas-dados font-2-s cor-8">
+                    <p>Rua Ali Perto, 25</p>
+                    <p>São Paulo - SP</p>
+                </div>
+                <div class="lojas-dados font-2-s cor-8">
+                    <a href="mailto:sp@bikcraft.com">sp@bikcraft.com</a>
+                    <a href="tel:+55 11 9999-9999">+55 21 9999-9999</a>
+                </div>
+                <p class="lojas-tempo font-1-s"><img src="./assets/img/icones/horario.svg" alt="">08-18h de seg à dom
+                </p>
+            </div>
+        </div>
+    </article>
 
 
 
