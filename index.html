@@ -20,6 +20,8 @@
     <link
         href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@1,900&family=Poppins:wght@400;600&family=Roboto:wght@400;500&display=swap"
         rel="stylesheet">
+    <link rel="icon" href="./favicon.svg" type="image/svg+xml">
+    <script>document.documentElement.classList.add('js')</script>
 </head>
 
 <body>
@@ -48,7 +50,7 @@
                     sua velocidade com a Bikcraft.</p>
                 <a class="botao" href="./bicicletas.html">Escolha a sua</a>
             </div>
-            <picture>
+            <picture class="fadeInUp" data-anime="200">
                 <source media="(max-width:800px)" srcset="./assets/img/bicicletas/nimbus.jpg">
                 <img src="./assets/img/fotos/introducao.jpg" alt="Bicicleta eletrica preta" width="1280" height="1600">
             </picture>
@@ -211,6 +213,8 @@
         </div>
 
     </footer>
+    <script src="./js/plugins/simple-anime.js"></script>;
+    <script src="./js/script.js"></script>
 </body>
 
 </html>
